@@ -1,0 +1,65 @@
+rder nodes with priority-queue...
+test 0
+edgeDiffMult 190
+searchSpaceMult 1
+betweennessAdd 0
+reachAdd 0
+delNeighbMult 0
+newEdgesMult 0
+maxSettledApprox 0
+lazyUpdateRecalcLimit 1000
+maxSettledElim 0
+maxHops 1-3.3-2-10-3-10-5-
+voronoiMult 0
+searchPathHopBorderMult 0
+updateHops 0
+localReduceEdges 1
+shortcutOriginalEdgeSumMult 600
+searchPathHopBorderOriginalEdges 0
+output exact-190-1-0-0-0-0-0-1000-0-1-3.3-2-10-3-10-5-0-0-0-1-600-0.hcn
+Open file docu/bike_ddsg.txt...
+Import Graph: n = 58228, m = 214078
+0 oneway street(s).
+** memory usage on hard disk [MB (bytes per node)] **
+   edges: 7 (118)
+   node data: 1 (20)
+   node ID mapping: 0 (4)
+   TOTAL: 8 (142)
+
+Create node order and hierarchy using a priority queue...
+Initialize elimination weights...
+.... 10% .... 20% .... 30% .... 40% .... 50% .... 60% .... 70% .... 80% .... 90% .... 100%
+#nodes: 58228 / #edges: 428156
+Eliminatate by priority-queue...
+Switch to max hops 2 after 1 nodes, 0.000118971 seconds
+Recalculate all remaining weights...
+.... 10% .... 20% .... 30% .... 40% .... 50% .... 60% .... 70% .... 80% .... 90% .... 100%
+.... 10% ...10000 nodes, 6003.6 seconds, 6003.6 last, 28954.2 remaining, avg degree: 7.24044 max hops: 2
+. 20% .... 30% .20000 nodes, 6905.65 seconds, 902.05 last, 13199.5 remaining, avg degree: 8.44899 max hops: 2
+.10000 lazy updates
+.. 40% ...^[[6~----------qaa-Switch to max hops 3 after 28016 nodes, 8901.98 seconds
+Recalculate all remaining weights...
+.... 10% .... 20% .... 30% .... 40% .... 50% .... 60% .... 70% .... 80% .... 90% .... 100%
+Switch to max hops 5 after 28020 nodes, 9254.44 seconds
+Recalculate all remaining weights...
+.... 10% .... 20% .... 30% .... 40% .... 50% .... 60% .... 70% .... 80% .... 90% .... 100%
+. 50% 30000 nodes, 10272.6 seconds, 3366.95 last, 9665.83 remaining, avg degree: 10.5187 max hops: 5
+...20000 lazy updates
+...40000 nodes, 43037.2 seconds, 32764.6 last, 19612 remaining, avg degree: 14.7427 max hops: 5
+. 70% ..There were too many lazy updates, updating whole priority queue.
+Recalculate all remaining weights...
+.... 10% .... 20% .... 30% .... 40% .... 50% .... 60% .... 70% .... 80% .... 90% .... 100%
+..30000 lazy updates
+There were too many lazy updates, updating whole priority queue.
+Recalculate all remaining weights...
+.... 10% .... 20% .... 30% .... 40% .... 50% .... 60% .... 70% .... 80% .... 90% .... 100%
+ 80% ..50000 nodes, 70964.3 seconds, 27927.2 last, 11677.9 remaining, avg degree: 31.6142 max hops: 5
+.. 90% .... 100%
+#edges: 803730 / 1676370
+Write node order (levels) to exact-190-1-0-0-0-0-0-1000-0-1-3.3-2-10-3-10-5-0-0-0-1-600-0.hcn ...
+node ordering time: 104921 s
+max avg degree: 81.0404
+#edges: 803730
+#total expanded edges: 421993
+
+

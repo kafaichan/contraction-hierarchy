@@ -1,0 +1,189 @@
+TEST
+Import Graph: n = 1971279, m = 5533214
+5533214 oneway street(s).
+5533214 one-way edge(s) merged with an opposite edge of the same length.
+** memory usage on hard disk [MB (bytes per node)] **
+   edges: 84 (45)
+   node data: 38 (20)
+   node ID mapping: 8 (4)
+   TOTAL: 130 (69)
+
+[0] 1656244 -> 777438 length 142
+[1] 1543707 -> 1573948 length 154
+[2] 1797111 -> 389428 length 269
+.[3] 660817 -> 1514394 length 182
+[4] 547571 -> 1092029 length 203
+.[5] 941082 -> 1239680 length 219
+[6] 719091 -> 1012056 length 284
+.[7] 1877110 -> 1806076 length 214
+[8] 1253165 -> 1413992 length 276
+.[9] 279138 -> 1196504 length 228
+[10] 32132 -> 478797 length 332
+ 10% [11] 270521 -> 1585256 length 228
+[12] 308858 -> 790373 length 479
+.[13] 255853 -> 214492 length 336
+[14] 1969158 -> 430245 length 352
+.[15] 1011132 -> 1654124 length 194
+[16] 1207684 -> 583560 length 268
+.[17] 1256793 -> 1033516 length 637
+[18] 972989 -> 1917610 length 188
+.[19] 576632 -> 1520561 length 151
+[20] 1038361 -> 1517714 length 420
+ 20% [21] 788962 -> 1757453 length 153
+[22] 558492 -> 694793 length 119
+.[23] 1592250 -> 1811657 length 255
+[24] 137507 -> 1871388 length 305
+.[25] 1036883 -> 169640 length 164
+[26] 378907 -> 1307405 length 109
+.[27] 1754896 -> 687765 length 371
+[28] 126499 -> 39471 length 126
+.[29] 902257 -> 124379 length 313
+[30] 469716 -> 1913390 length 344
+ 30% [31] 1778503 -> 1677400 length 244
+[32] 525672 -> 1064018 length 257
+.[33] 739637 -> 1498662 length 170
+[34] 1010350 -> 1316269 length 479
+.[35] 1047944 -> 77432 length 634
+[36] 862705 -> 1836906 length 245
+.[37] 1834885 -> 1421198 length 577
+[38] 560421 -> 1455857 length 143
+.[39] 1261576 -> 697928 length 102
+[40] 1355966 -> 327181 length 230
+ 40% [41] 867568 -> 1734873 length 265
+[42] 1634586 -> 651186 length 273
+.[43] 451360 -> 1761086 length 323
+[44] 690657 -> 1353617 length 124
+.[45] 1885465 -> 1160373 length 368
+[46] 1295729 -> 1692690 length 604
+.[47] 866495 -> 1821402 length 290
+[48] 785429 -> 1606132 length 152
+.[49] 1348785 -> 1795780 length 363
+[50] 951123 -> 425451 length 249
+ 50% [51] 1873212 -> 1813829 length 338
+[52] 291079 -> 1736819 length 654
+.[53] 1263748 -> 851500 length 279
+[54] 1221397 -> 554046 length 319
+.[55] 1549429 -> 606085 length 338
+[56] 881227 -> 445719 length 389
+.[57] 369680 -> 544535 length 256
+[58] 1096905 -> 821040 length 474
+[59] 334342 -> 1787563 length 396
+.[60] 203379 -> 248529 length 285
+ 60% [61] 976658 -> 1499108 length 376
+[62] 1941220 -> 1843153 length 321
+.[63] 1349232 -> 755371 length 403
+[64] 1478007 -> 726738 length 83
+.[65] 579872 -> 457852 length 258
+[66] 1152189 -> 481805 length 310
+.[67] 300402 -> 1443268 length 203
+[68] 247346 -> 1564151 length 319
+.[69] 323490 -> 1468743 length 381
+[70] 146919 -> 1872920 length 254
+ 70% [71] 103549 -> 1028146 length 141
+[72] 347360 -> 473229 length 434
+.[73] 1572682 -> 1444266 length 240
+[74] 1294270 -> 1907025 length 456
+.[75] 1260550 -> 1497649 length 404
+[76] 184276 -> 265930 length 325
+.[77] 1025479 -> 154217 length 301
+[78] 137805 -> 403432 length 341
+.[79] 909588 -> 1615812 length 321
+[80] 1130170 -> 1489460 length 397
+ 80% [81] 102385 -> 311081 length 572
+[82] 1971266 -> 402788 length 379
+.[83] 1754350 -> 247333 length 147
+[84] 1966940 -> 106562 length 93
+.[85] 1716076 -> 142580 length 391
+[86] 8203 -> 1819626 length 141
+.[87] 1170727 -> 355564 length 454
+[88] 321577 -> 772130 length 431
+.[89] 1799830 -> 1615847 length 125
+[90] 707877 -> 1089102 length 373
+ 90% [91] 1142218 -> 892153 length 580
+[92] 1355032 -> 196418 length 311
+.[93] 1046370 -> 1492837 length 471
+[94] 599850 -> 1955959 length 414
+.[95] 1137371 -> 1730021 length 611
+[96] 1474140 -> 1239756 length 428
+.[97] 69824 -> 1474128 length 235
+[98] 1642545 -> 1824175 length 266
+.[99] 1721461 -> 1638206 length 351
+ 100%
+Write test lengths to docu/roadNet-CA_ddsg.txt.test-lengths ...
+Import Graph: n = 1971279, m = 5533214
+5533214 oneway street(s).
+5533214 one-way edge(s) merged with an opposite edge of the same length.
+** memory usage on hard disk [MB (bytes per node)] **
+   edges: 84 (45)
+   node data: 38 (20)
+   node ID mapping: 8 (4)
+   TOTAL: 130 (69)
+
+Construct from exact-190-1-0-0-0-0-0-1000-0-1-3.3-2-10-3-10-5-0-0-0-1-600-0.hcn ...
+Eliminate by given level...
+..100000 nodes, 0.0237958 seconds, 0.0237958 last, 0.445287 remaining, avg degree: 2.84092 max hops: 0
+..200000 nodes, 0.0406108 seconds, 0.0168149 last, 0.359665 remaining, avg degree: 2.88508 max hops: 0
+ 10% ..300000 nodes, 0.0577159 seconds, 0.0171051 last, 0.321531 remaining, avg degree: 2.93509 max hops: 0
+..400000 nodes, 0.0800278 seconds, 0.0223119 last, 0.314365 remaining, avg degree: 3.0029 max hops: 0
+ 20% ..500000 nodes, 0.234948 seconds, 0.15492 last, 0.691348 remaining, avg degree: 3.0498 max hops: 0
+..600000 nodes, 0.421492 seconds, 0.186544 last, 0.963305 remaining, avg degree: 3.10307 max hops: 0
+ 30% ..700000 nodes, 0.649793 seconds, 0.228301 last, 1.1801 remaining, avg degree: 3.15696 max hops: 0
+..800000 nodes, 0.933037 seconds, 0.283244 last, 1.36606 remaining, avg degree: 3.20453 max hops: 0
+ 40% ..900000 nodes, 1.29239 seconds, 0.359356 last, 1.53835 remaining, avg degree: 3.14887 max hops: 0
+..1000000 nodes, 1.63395 seconds, 0.341559 last, 1.58702 remaining, avg degree: 3.16767 max hops: 0
+ 50% ..1100000 nodes, 2.0375 seconds, 0.403551 last, 1.61385 remaining, avg degree: 3.22913 max hops: 0
+..1200000 nodes, 2.52553 seconds, 0.488025 last, 1.62324 remaining, avg degree: 3.30126 max hops: 0
+ 60% ..1300000 nodes, 3.08276 seconds, 0.557232 last, 1.59184 remaining, avg degree: 3.37934 max hops: 0
+.. 70% 1400000 nodes, 3.66744 seconds, 0.584684 last, 1.49652 remaining, avg degree: 3.45467 max hops: 0
+..1500000 nodes, 4.32642 seconds, 0.65898 last, 1.3593 remaining, avg degree: 3.61876 max hops: 0
+.. 80% 1600000 nodes, 5.03289 seconds, 0.706464 last, 1.16788 remaining, avg degree: 3.89829 max hops: 0
+..1700000 nodes, 5.93229 seconds, 0.899398 last, 0.94665 remaining, avg degree: 4.34915 max hops: 0
+.. 90% 1800000 nodes, 7.21808 seconds, 1.28579 last, 0.686836 remaining, avg degree: 5.03133 max hops: 0
+..1900000 nodes, 9.15014 seconds, 1.93206 last, 0.34327 remaining, avg degree: 6.46246 max hops: 0
+.. 100%
+#edges: 10147322 / 20410762
+max avg degree: 8.703
+Construct search-graph...
+Node-order: 16 levels + original node-id
+** memory usage on hard disk [MB (bytes per node)] **
+   edges: 77 (41)
+   node data: 15 (8)
+   node ID mapping: 8 (4)
+   TOTAL: 100 (53)
+
+#core nodes: 0
+Serialize contraction hierarchy to exact-190-1-0-0-0-0-0-1000-0-1-3.3-2-10-3-10-5-0-0-0-1-600-0.hcn-0-1-2-0.ch ...
+Contraction Hierarchy file format version 1
+1971279 nodes
+2766603 original edges
+2307056 shortcut edges
+Export levels...
+.... 10% .... 20% .... 30% .... 40% .... 50% .... 60% .... 70% .... 80% .... 90% .... 100%
+Export original edges...
+.... 10% .... 20% .... 30% .... 40% .... 50% .... 60% .... 70% .... 80% .... 90% .... 100%
+Export shortcut edges...
+.... 10% .... 20% .... 30% .... 40% .... 50% .... 60% .... 70% .... 80% .... 90% .... 100%
+Export done, took 0.856531 seconds.
+Cache warmup done, took 0.00556493 seconds, checksum 31519.
+Test run without statistics done, took 0.00537801 seconds, checksum 30876.
+Test run with path expansion  done, took 0.00839996 seconds, checksum 30876.
+Test run with statistics done, took 0.008286 seconds, checksum 30876.
+noOfTestCases 100
+noOfTestCasesVerify 100
+sizeof Edge 16
+maxSettledElim 0
+maxHops 
+localReduceEdges 1
+construction time: 11.1751 s
+nodeOrder: 2
+#edges: 5073659 / 10147322
+#edges original unidir./bidir.: 5533206 / 5533210
+space overhead [B/node] unidir./bidir.: 18.7254 / 18.7253
+#shortcut edges: 2307056
+avg query time: 0.0537801 ms
+#settled nodes min/avg/max: 233 / 371.51 / 617
+#settled minus stalled nodes min/avg/max: 126 / 224.79 / 375
+avg path expansion time: 0.0302196 ms
+#edges in expanded path min/avg/max: 83 / 308.76 / 654
+#edges in searched path min/avg/max: 11 / 18.53 / 30
+checksums 31519 30876 30876 30876

@@ -1,0 +1,333 @@
+Order nodes with priority-queue...
+test 0
+edgeDiffMult 190
+searchSpaceMult 1
+betweennessAdd 0
+reachAdd 0
+delNeighbMult 0
+newEdgesMult 0
+maxSettledApprox 0
+lazyUpdateRecalcLimit 1000
+maxSettledElim 0
+maxHops 1-3.3-2-10-3-10-5-
+voronoiMult 0
+searchPathHopBorderMult 0
+updateHops 0
+localReduceEdges 1
+shortcutOriginalEdgeSumMult 600
+searchPathHopBorderOriginalEdges 0
+output exact-190-1-0-0-0-0-0-1000-0-1-3.3-2-10-3-10-5-0-0-0-1-600-0.hcn
+Open file docu/roadNet-CA_ddsg.txt...
+Import Graph: n = 1971279, m = 5533214
+5533214 oneway street(s).
+5533214 one-way edge(s) merged with an opposite edge of the same length.
+** memory usage on hard disk [MB (bytes per node)] **
+   edges: 84 (45)
+   node data: 38 (20)
+   node ID mapping: 8 (4)
+   TOTAL: 130 (69)
+
+Create node order and hierarchy using a priority queue...
+Initialize elimination weights...
+..100000 nodes, 0.030993 seconds, 0.030993 last, 0.579965 remaining
+..200000 nodes, 0.0596459 seconds, 0.0286529 last, 0.528248 remaining
+ 10% ..300000 nodes, 0.091965 seconds, 0.0323191 last, 0.51233 remaining
+..400000 nodes, 0.12266 seconds, 0.030695 last, 0.481832 remaining
+ 20% ..500000 nodes, 0.152612 seconds, 0.029952 last, 0.44907 remaining
+..600000 nodes, 0.184439 seconds, 0.031827 last, 0.421529 remaining
+ 30% ..700000 nodes, 0.214433 seconds, 0.029994 last, 0.389434 remaining
+..800000 nodes, 0.242533 seconds, 0.0281 last, 0.355092 remaining
+ 40% ..900000 nodes, 0.273121 seconds, 0.0305882 last, 0.325099 remaining
+..1000000 nodes, 0.301275 seconds, 0.0281539 last, 0.292622 remaining
+ 50% ..1100000 nodes, 0.331404 seconds, 0.030129 last, 0.262496 remaining
+..1200000 nodes, 0.362026 seconds, 0.030622 last, 0.232686 remaining
+ 60% ..1300000 nodes, 0.394124 seconds, 0.0320981 last, 0.203513 remaining
+.. 70% 1400000 nodes, 0.426665 seconds, 0.032541 last, 0.174103 remaining
+..1500000 nodes, 0.455956 seconds, 0.0292909 last, 0.143255 remaining
+.. 80% 1600000 nodes, 0.485874 seconds, 0.029918 last, 0.112747 remaining
+..1700000 nodes, 0.514564 seconds, 0.0286901 last, 0.082112 remaining
+.. 90% 1800000 nodes, 0.543557 seconds, 0.0289929 last, 0.0517222 remaining
+..1900000 nodes, 0.57308 seconds, 0.0295231 last, 0.0214992 remaining
+.. 100%
+#nodes: 1971279 / #edges: 5533210
+Eliminatate by priority-queue...
+10000 nodes, 0.0127621 seconds, 0.0127621 last, 2.503 remaining, avg degree: 2.80449 max hops: 1
+20000 nodes, 0.019063 seconds, 0.00630093 last, 1.85986 remaining, avg degree: 2.80861 max hops: 1
+30000 nodes, 0.025162 seconds, 0.00609899 last, 1.62821 remaining, avg degree: 2.81255 max hops: 1
+40000 nodes, 0.0313041 seconds, 0.00614214 last, 1.51142 remaining, avg degree: 2.81651 max hops: 1
+50000 nodes, 0.0372541 seconds, 0.00594997 last, 1.43151 remaining, avg degree: 2.82059 max hops: 1
+.60000 nodes, 0.043416 seconds, 0.00616193 last, 1.383 remaining, avg degree: 2.82462 max hops: 1
+70000 nodes, 0.0493331 seconds, 0.00591707 last, 1.33994 remaining, avg degree: 2.82855 max hops: 1
+80000 nodes, 0.055522 seconds, 0.00618887 last, 1.31259 remaining, avg degree: 2.83266 max hops: 1
+90000 nodes, 0.0618231 seconds, 0.00630116 last, 1.2923 remaining, avg degree: 2.83676 max hops: 1
+.100000 nodes, 0.0681272 seconds, 0.00630403 last, 1.27485 remaining, avg degree: 2.84092 max hops: 1
+110000 nodes, 0.0742509 seconds, 0.00612378 last, 1.25638 remaining, avg degree: 2.84517 max hops: 1
+120000 nodes, 0.0801661 seconds, 0.00591516 last, 1.23675 remaining, avg degree: 2.84945 max hops: 1
+10000 lazy updates
+130000 nodes, 0.0859571 seconds, 0.00579095 last, 1.21747 remaining, avg degree: 2.8538 max hops: 1
+.140000 nodes, 0.091857 seconds, 0.00589991 last, 1.20154 remaining, avg degree: 2.85821 max hops: 1
+150000 nodes, 0.097862 seconds, 0.00600505 last, 1.18823 remaining, avg degree: 2.86255 max hops: 1
+160000 nodes, 0.103816 seconds, 0.00595403 last, 1.17525 remaining, avg degree: 2.86695 max hops: 1
+170000 nodes, 0.109824 seconds, 0.00600791 last, 1.16367 remaining, avg degree: 2.87142 max hops: 1
+.180000 nodes, 0.115999 seconds, 0.00617504 last, 1.15437 remaining, avg degree: 2.87594 max hops: 1
+190000 nodes, 0.121703 seconds, 0.00570416 last, 1.14099 remaining, avg degree: 2.8805 max hops: 1
+200000 nodes, 0.127502 seconds, 0.00579882 last, 1.12921 remaining, avg degree: 2.88508 max hops: 1
+20000 lazy updates
+210000 nodes, 0.133294 seconds, 0.00579214 last, 1.11794 remaining, avg degree: 2.88976 max hops: 1
+ 10% 220000 nodes, 0.13906 seconds, 0.00576591 last, 1.10697 remaining, avg degree: 2.89453 max hops: 1
+230000 nodes, 0.14519 seconds, 0.00612998 last, 1.0992 remaining, avg degree: 2.89937 max hops: 1
+240000 nodes, 0.151411 seconds, 0.00622106 last, 1.09223 remaining, avg degree: 2.90426 max hops: 1
+250000 nodes, 0.157377 seconds, 0.00596595 last, 1.08356 remaining, avg degree: 2.90926 max hops: 1
+.260000 nodes, 0.163643 seconds, 0.00626612 last, 1.07707 remaining, avg degree: 2.9143 max hops: 1
+270000 nodes, 0.169857 seconds, 0.0062139 last, 1.07027 remaining, avg degree: 2.9194 max hops: 1
+280000 nodes, 0.175967 seconds, 0.00610995 last, 1.06289 remaining, avg degree: 2.92453 max hops: 1
+290000 nodes, 0.181791 seconds, 0.00582409 last, 1.05394 remaining, avg degree: 2.92966 max hops: 1
+.30000 lazy updates
+300000 nodes, 0.1905 seconds, 0.00870895 last, 1.06126 remaining, avg degree: 2.93509 max hops: 1
+310000 nodes, 0.198891 seconds, 0.00839114 last, 1.06585 remaining, avg degree: 2.94056 max hops: 1
+320000 nodes, 0.207968 seconds, 0.00907683 last, 1.07317 remaining, avg degree: 2.94614 max hops: 1
+330000 nodes, 0.217067 seconds, 0.00909901 last, 1.0796 remaining, avg degree: 2.95178 max hops: 1
+.340000 nodes, 0.225709 seconds, 0.00864196 last, 1.08292 remaining, avg degree: 2.95743 max hops: 1
+350000 nodes, 0.234594 seconds, 0.00888515 last, 1.08669 remaining, avg degree: 2.96315 max hops: 1
+360000 nodes, 0.243577 seconds, 0.0089829 last, 1.0902 remaining, avg degree: 2.96891 max hops: 1
+40000 lazy updates
+370000 nodes, 0.252884 seconds, 0.00930715 last, 1.09443 remaining, avg degree: 2.97481 max hops: 1
+.380000 nodes, 0.262131 seconds, 0.00924683 last, 1.09769 remaining, avg degree: 2.98075 max hops: 1
+390000 nodes, 0.271895 seconds, 0.00976419 last, 1.10242 remaining, avg degree: 2.98677 max hops: 1
+400000 nodes, 0.276853 seconds, 0.00495791 last, 1.08753 remaining, avg degree: 3.0029 max hops: 1
+410000 nodes, 0.296199 seconds, 0.019346 last, 1.12793 remaining, avg degree: 3.00288 max hops: 1
+ 20% 420000 nodes, 0.310208 seconds, 0.014009 last, 1.14576 remaining, avg degree: 3.00907 max hops: 1
+430000 nodes, 0.323557 seconds, 0.0133491 last, 1.15975 remaining, avg degree: 3.01454 max hops: 1
+440000 nodes, 0.337122 seconds, 0.0135648 last, 1.17324 remaining, avg degree: 3.01988 max hops: 1
+450000 nodes, 0.350569 seconds, 0.013447 last, 1.18514 remaining, avg degree: 3.02525 max hops: 1
+.460000 nodes, 0.364281 seconds, 0.0137119 last, 1.1968 remaining, avg degree: 3.03075 max hops: 1
+50000 lazy updates
+470000 nodes, 0.377801 seconds, 0.01352 last, 1.20678 remaining, avg degree: 3.0364 max hops: 1
+480000 nodes, 0.391373 seconds, 0.0135722 last, 1.21593 remaining, avg degree: 3.04226 max hops: 1
+490000 nodes, 0.405311 seconds, 0.013938 last, 1.22526 remaining, avg degree: 3.04787 max hops: 1
+.500000 nodes, 0.419223 seconds, 0.013912 last, 1.23359 remaining, avg degree: 3.05373 max hops: 1
+510000 nodes, 0.433819 seconds, 0.014596 last, 1.243 remaining, avg degree: 3.06035 max hops: 1
+520000 nodes, 0.448239 seconds, 0.01442 last, 1.251 remaining, avg degree: 3.06706 max hops: 1
+530000 nodes, 0.462972 seconds, 0.0147331 last, 1.259 remaining, avg degree: 3.07385 max hops: 1
+.540000 nodes, 0.477883 seconds, 0.0149109 last, 1.26664 remaining, avg degree: 3.08065 max hops: 1
+550000 nodes, 0.492779 seconds, 0.0148959 last, 1.27341 remaining, avg degree: 3.08754 max hops: 1
+560000 nodes, 0.507722 seconds, 0.0149431 last, 1.27953 remaining, avg degree: 3.09454 max hops: 1
+570000 nodes, 0.522703 seconds, 0.014981 last, 1.28501 remaining, avg degree: 3.10159 max hops: 1
+.60000 lazy updates
+580000 nodes, 0.537478 seconds, 0.0147748 last, 1.28928 remaining, avg degree: 3.10886 max hops: 1
+590000 nodes, 0.552245 seconds, 0.0147672 last, 1.29289 remaining, avg degree: 3.11622 max hops: 1
+600000 nodes, 0.568266 seconds, 0.016021 last, 1.29875 remaining, avg degree: 3.12371 max hops: 1
+610000 nodes, 0.583573 seconds, 0.0153069 last, 1.3023 remaining, avg degree: 3.13135 max hops: 1
+ 30% 620000 nodes, 0.598148 seconds, 0.014575 last, 1.30365 remaining, avg degree: 3.13912 max hops: 1
+630000 nodes, 0.616122 seconds, 0.0179739 last, 1.31173 remaining, avg degree: 3.14726 max hops: 1
+640000 nodes, 0.634066 seconds, 0.0179441 last, 1.31894 remaining, avg degree: 3.15551 max hops: 1
+70000 lazy updates
+650000 nodes, 0.652185 seconds, 0.0181189 last, 1.32572 remaining, avg degree: 3.16388 max hops: 1
+.660000 nodes, 0.670618 seconds, 0.0184331 last, 1.33237 remaining, avg degree: 3.17231 max hops: 1
+670000 nodes, 0.689692 seconds, 0.019074 last, 1.33952 remaining, avg degree: 3.18088 max hops: 1
+680000 nodes, 0.708741 seconds, 0.0190489 last, 1.34586 remaining, avg degree: 3.18968 max hops: 1
+.690000 nodes, 0.726916 seconds, 0.0181751 last, 1.34983 remaining, avg degree: 3.19857 max hops: 1
+80000 lazy updates
+700000 nodes, 0.748891 seconds, 0.021975 last, 1.36007 remaining, avg degree: 3.20775 max hops: 1
+710000 nodes, 0.771577 seconds, 0.022686 last, 1.37067 remaining, avg degree: 3.217 max hops: 1
+720000 nodes, 0.792642 seconds, 0.021065 last, 1.37752 remaining, avg degree: 3.22344 max hops: 1
+.730000 nodes, 0.808262 seconds, 0.01562 last, 1.37435 remaining, avg degree: 3.23139 max hops: 1
+740000 nodes, 0.824403 seconds, 0.0161409 last, 1.37172 remaining, avg degree: 3.23969 max hops: 1
+750000 nodes, 0.84126 seconds, 0.0168569 last, 1.36988 remaining, avg degree: 3.24849 max hops: 1
+760000 nodes, 0.858487 seconds, 0.0172272 last, 1.36825 remaining, avg degree: 3.25753 max hops: 1
+.770000 nodes, 0.87603 seconds, 0.0175428 last, 1.3667 remaining, avg degree: 3.26682 max hops: 1
+780000 nodes, 0.894667 seconds, 0.0186372 last, 1.36641 remaining, avg degree: 3.2762 max hops: 1
+790000 nodes, 0.915874 seconds, 0.0212069 last, 1.3695 remaining, avg degree: 3.28625 max hops: 1
+800000 nodes, 0.938262 seconds, 0.022388 last, 1.37371 remaining, avg degree: 3.29535 max hops: 1
+Switch to max hops 2 after 804847 nodes, 0.947109 seconds
+Recalculate all remaining weights...
+...100000 nodes, 0.0632119 seconds, 0.0632119 last, 0.674112 remaining
+. 10% ...200000 nodes, 0.126259 seconds, 0.0630469 last, 0.610103 remaining
+. 20% ..300000 nodes, 0.188646 seconds, 0.0623872 last, 0.54483 remaining
+.. 30% .400000 nodes, 0.249519 seconds, 0.0608728 last, 0.478098 remaining
+... 40% 500000 nodes, 0.309982 seconds, 0.0604632 last, 0.413164 remaining
+.... 50% 600000 nodes, 0.369058 seconds, 0.0590758 last, 0.34841 remaining
+....700000 nodes, 0.424653 seconds, 0.0555952 last, 0.28296 remaining
+ 60% ...800000 nodes, 0.484372 seconds, 0.0597188 last, 0.221862 remaining
+. 70% ...900000 nodes, 0.545246 seconds, 0.060874 last, 0.161412 remaining
+. 80% ..1000000 nodes, 0.604032 seconds, 0.0587862 last, 0.10053 remaining
+.. 90% .1100000 nodes, 0.662563 seconds, 0.058531 last, 0.040014 remaining
+... 100%
+ 40% 810000 nodes, 1.66674 seconds, 0.728481 last, 2.38957 remaining, avg degree: 3.29067 max hops: 2
+820000 nodes, 1.69602 seconds, 0.0292749 last, 2.38121 remaining, avg degree: 3.28292 max hops: 2
+90000 lazy updates
+830000 nodes, 1.7269 seconds, 0.03088 last, 2.37455 remaining, avg degree: 3.27663 max hops: 2
+840000 nodes, 1.76129 seconds, 0.0343962 last, 2.37204 remaining, avg degree: 3.27024 max hops: 2
+.850000 nodes, 1.79794 seconds, 0.0366449 last, 2.37175 remaining, avg degree: 3.2637 max hops: 2
+860000 nodes, 1.83504 seconds, 0.0371051 last, 2.37122 remaining, avg degree: 3.25703 max hops: 2
+870000 nodes, 1.87623 seconds, 0.0411839 last, 2.375 remaining, avg degree: 3.25022 max hops: 2
+880000 nodes, 1.91678 seconds, 0.040554 last, 2.37698 remaining, avg degree: 3.2433 max hops: 2
+.890000 nodes, 1.95874 seconds, 0.0419579 last, 2.37971 remaining, avg degree: 3.23626 max hops: 2
+100000 lazy updates
+900000 nodes, 2.00277 seconds, 0.044029 last, 2.38392 remaining, avg degree: 3.22909 max hops: 2
+910000 nodes, 2.04288 seconds, 0.0401101 last, 2.38249 remaining, avg degree: 3.22175 max hops: 2
+920000 nodes, 2.08055 seconds, 0.0376759 last, 2.37744 remaining, avg degree: 3.21899 max hops: 2
+.930000 nodes, 2.10624 seconds, 0.0256851 last, 2.35826 remaining, avg degree: 3.22644 max hops: 2
+940000 nodes, 2.13449 seconds, 0.02825 last, 2.34176 remaining, avg degree: 3.23407 max hops: 2
+950000 nodes, 2.16553 seconds, 0.031044 last, 2.32802 remaining, avg degree: 3.24212 max hops: 2
+960000 nodes, 2.19883 seconds, 0.0332999 last, 2.31629 remaining, avg degree: 3.25228 max hops: 2
+.970000 nodes, 2.23215 seconds, 0.0333202 last, 2.30413 remaining, avg degree: 3.25256 max hops: 2
+110000 lazy updates
+980000 nodes, 2.27646 seconds, 0.044306 last, 2.30266 remaining, avg degree: 3.25104 max hops: 2
+990000 nodes, 2.30461 seconds, 0.028152 last, 2.28431 remaining, avg degree: 3.2597 max hops: 2
+1000000 nodes, 2.34047 seconds, 0.035857 last, 2.27325 remaining, avg degree: 3.26184 max hops: 2
+ 50% 1010000 nodes, 2.36726 seconds, 0.0267899 last, 2.25307 remaining, avg degree: 3.27228 max hops: 2
+1020000 nodes, 2.39811 seconds, 0.0308461 last, 2.23654 remaining, avg degree: 3.28167 max hops: 2
+1030000 nodes, 2.43227 seconds, 0.034163 last, 2.22276 remaining, avg degree: 3.28699 max hops: 2
+1040000 nodes, 2.46755 seconds, 0.0352778 last, 2.20959 remaining, avg degree: 3.29268 max hops: 2
+.1050000 nodes, 2.50267 seconds, 0.0351222 last, 2.19586 remaining, avg degree: 3.29848 max hops: 2
+1060000 nodes, 2.53851 seconds, 0.0358388 last, 2.18235 remaining, avg degree: 3.30422 max hops: 2
+120000 lazy updates
+1070000 nodes, 2.57948 seconds, 0.040972 last, 2.17274 remaining, avg degree: 3.3105 max hops: 2
+1080000 nodes, 2.62213 seconds, 0.0426462 last, 2.16393 remaining, avg degree: 3.31737 max hops: 2
+.1090000 nodes, 2.6648 seconds, 0.0426719 last, 2.15452 remaining, avg degree: 3.32415 max hops: 2
+1100000 nodes, 2.708 seconds, 0.0431991 last, 2.14493 remaining, avg degree: 3.33095 max hops: 2
+1110000 nodes, 2.74978 seconds, 0.0417819 last, 2.13363 remaining, avg degree: 3.33777 max hops: 2
+130000 lazy updates
+1120000 nodes, 2.79875 seconds, 0.0489721 last, 2.12725 remaining, avg degree: 3.34762 max hops: 2
+.1130000 nodes, 2.84864 seconds, 0.049891 last, 2.1208 remaining, avg degree: 3.35771 max hops: 2
+1140000 nodes, 2.89857 seconds, 0.0499308 last, 2.11362 remaining, avg degree: 3.36816 max hops: 2
+140000 lazy updates
+1150000 nodes, 2.9514 seconds, 0.05283 last, 2.10776 remaining, avg degree: 3.37857 max hops: 2
+1160000 nodes, 3.00851 seconds, 0.0571091 last, 2.10409 remaining, avg degree: 3.3898 max hops: 2
+.1170000 nodes, 3.06726 seconds, 0.0587461 last, 2.10062 remaining, avg degree: 3.38927 max hops: 2
+1180000 nodes, 3.09656 seconds, 0.0292988 last, 2.07647 remaining, avg degree: 3.40228 max hops: 2
+1190000 nodes, 3.13337 seconds, 0.0368121 last, 2.05717 remaining, avg degree: 3.41014 max hops: 2
+150000 lazy updates
+1200000 nodes, 3.17159 seconds, 0.0382199 last, 2.03848 remaining, avg degree: 3.41859 max hops: 2
+ 60% 1210000 nodes, 3.21312 seconds, 0.0415342 last, 2.02156 remaining, avg degree: 3.42764 max hops: 2
+1220000 nodes, 3.25727 seconds, 0.0441439 last, 2.00583 remaining, avg degree: 3.43739 max hops: 2
+1230000 nodes, 3.30256 seconds, 0.0452981 last, 1.99034 remaining, avg degree: 3.44734 max hops: 2
+160000 lazy updates
+1240000 nodes, 3.3494 seconds, 0.0468349 last, 1.97528 remaining, avg degree: 3.45794 max hops: 2
+.1250000 nodes, 3.40009 seconds, 0.0506921 last, 1.96193 remaining, avg degree: 3.46941 max hops: 2
+1260000 nodes, 3.45146 seconds, 0.0513718 last, 1.94838 remaining, avg degree: 3.4816 max hops: 2
+170000 lazy updates
+1270000 nodes, 3.50489 seconds, 0.0534232 last, 1.93536 remaining, avg degree: 3.494 max hops: 2
+1280000 nodes, 3.56217 seconds, 0.057287 last, 1.92379 remaining, avg degree: 3.50713 max hops: 2
+.1290000 nodes, 3.62439 seconds, 0.0622149 last, 1.91412 remaining, avg degree: 3.52149 max hops: 2
+1300000 nodes, 3.66717 seconds, 0.0427821 last, 1.89361 remaining, avg degree: 3.53034 max hops: 2
+180000 lazy updates
+1310000 nodes, 3.70646 seconds, 0.0392871 last, 1.87099 remaining, avg degree: 3.54168 max hops: 2
+1320000 nodes, 3.7513 seconds, 0.0448449 last, 1.85087 remaining, avg degree: 3.55374 max hops: 2
+.1330000 nodes, 3.79759 seconds, 0.046289 last, 1.83106 remaining, avg degree: 3.56648 max hops: 2
+1340000 nodes, 3.8491 seconds, 0.0515051 last, 1.81332 remaining, avg degree: 3.57983 max hops: 2
+190000 lazy updates
+1350000 nodes, 3.90123 seconds, 0.0521319 last, 1.79537 remaining, avg degree: 3.59399 max hops: 2
+1360000 nodes, 3.95898 seconds, 0.0577471 last, 1.77944 remaining, avg degree: 3.60941 max hops: 2
+.There were too many lazy updates, updating whole priority queue.
+Recalculate all remaining weights...
+.... 10% ..100000 nodes, 0.081872 seconds, 0.081872 last, 0.411226 remaining
+.. 20% .... 30% .200000 nodes, 0.163152 seconds, 0.0812802 last, 0.328164 remaining
+... 40% ....300000 nodes, 0.241369 seconds, 0.0782168 last, 0.243203 remaining
+ 50% .... 60% ..400000 nodes, 0.319414 seconds, 0.0780451 last, 0.161527 remaining
+.. 70% .... 80% .500000 nodes, 0.399037 seconds, 0.079623 last, 0.0816262 remaining
+... 90% ....600000 nodes, 0.477522 seconds, 0.078485 last, 0.00181379 remaining
+ 100%
+1370000 nodes, 4.50321 seconds, 0.544237 last, 1.97641 remaining, avg degree: 3.6232 max hops: 2
+1380000 nodes, 4.55168 seconds, 0.048466 last, 1.95023 remaining, avg degree: 3.61909 max hops: 2
+200000 lazy updates
+1390000 nodes, 4.60423 seconds, 0.0525541 last, 1.92543 remaining, avg degree: 3.62373 max hops: 2
+ 70% 1400000 nodes, 4.65983 seconds, 0.0556009 last, 1.90147 remaining, avg degree: 3.64053 max hops: 2
+1410000 nodes, 4.7179 seconds, 0.058063 last, 1.87805 remaining, avg degree: 3.65397 max hops: 2
+1420000 nodes, 4.76095 seconds, 0.043051 last, 1.84832 remaining, avg degree: 3.67295 max hops: 2
+1430000 nodes, 4.81201 seconds, 0.0510662 last, 1.82143 remaining, avg degree: 3.69406 max hops: 2
+.1440000 nodes, 4.8677 seconds, 0.0556829 last, 1.79591 remaining, avg degree: 3.71615 max hops: 2
+1450000 nodes, 4.93325 seconds, 0.0655529 last, 1.77352 remaining, avg degree: 3.74019 max hops: 2
+1460000 nodes, 4.99345 seconds, 0.0602 last, 1.74866 remaining, avg degree: 3.75532 max hops: 2
+1470000 nodes, 5.04461 seconds, 0.0511651 last, 1.72024 remaining, avg degree: 3.77816 max hops: 2
+210000 lazy updates
+.1480000 nodes, 5.10414 seconds, 0.05953 last, 1.6943 remaining, avg degree: 3.80296 max hops: 2
+1490000 nodes, 5.18199 seconds, 0.0778489 last, 1.67382 remaining, avg degree: 3.8232 max hops: 2
+1500000 nodes, 5.24308 seconds, 0.0610881 last, 1.6473 remaining, avg degree: 3.88437 max hops: 2
+220000 lazy updates
+1510000 nodes, 5.31261 seconds, 0.0695319 last, 1.62291 remaining, avg degree: 3.95124 max hops: 2
+.1520000 nodes, 5.38916 seconds, 0.07655 last, 1.60001 remaining, avg degree: 4.02482 max hops: 2
+1530000 nodes, 5.45912 seconds, 0.069952 last, 1.57451 remaining, avg degree: 4.07973 max hops: 2
+230000 lazy updates
+1540000 nodes, 5.52171 seconds, 0.0625911 last, 1.54636 remaining, avg degree: 4.10853 max hops: 2
+1550000 nodes, 5.6091 seconds, 0.087389 last, 1.52451 remaining, avg degree: 4.13808 max hops: 2
+240000 lazy updates
+.1560000 nodes, 5.6737 seconds, 0.0646079 last, 1.49582 remaining, avg degree: 4.16107 max hops: 2
+1570000 nodes, 5.75193 seconds, 0.0782251 last, 1.47015 remaining, avg degree: 4.1908 max hops: 2
+There were too many lazy updates, updating whole priority queue.
+Recalculate all remaining weights...
+.... 10% .... 20% ..100000 nodes, 0.112892 seconds, 0.112891 last, 0.332217 remaining
+.. 30% .... 40% ....200000 nodes, 0.222762 seconds, 0.10987 last, 0.21639 remaining
+ 50% .... 60% .... 70% ..300000 nodes, 0.332225 seconds, 0.109463 last, 0.104406 remaining
+.. 80% .... 90% .... 100%
+1580000 nodes, 6.27352 seconds, 0.521592 last, 1.55361 remaining, avg degree: 4.2155 max hops: 2
+1590000 nodes, 6.34558 seconds, 0.0720592 last, 1.52166 remaining, avg degree: 4.23405 max hops: 2
+ 80% 1600000 nodes, 6.42069 seconds, 0.0751128 last, 1.48992 remaining, avg degree: 4.26514 max hops: 2
+250000 lazy updates
+1610000 nodes, 6.50133 seconds, 0.0806332 last, 1.45888 remaining, avg degree: 4.3218 max hops: 2
+1620000 nodes, 6.58692 seconds, 0.0855908 last, 1.4283 remaining, avg degree: 4.42817 max hops: 2
+1630000 nodes, 6.66391 seconds, 0.0769911 last, 1.39525 remaining, avg degree: 4.46521 max hops: 2
+.1640000 nodes, 6.76808 seconds, 0.104171 last, 1.36715 remaining, avg degree: 4.51189 max hops: 2
+260000 lazy updates
+1650000 nodes, 6.85611 seconds, 0.088032 last, 1.33498 remaining, avg degree: 4.56538 max hops: 2
+1660000 nodes, 6.98766 seconds, 0.131546 last, 1.31031 remaining, avg degree: 4.62527 max hops: 2
+1670000 nodes, 7.0911 seconds, 0.103446 last, 1.27928 remaining, avg degree: 4.71601 max hops: 2
+270000 lazy updates
+.1680000 nodes, 7.19545 seconds, 0.104347 last, 1.24755 remaining, avg degree: 4.7734 max hops: 2
+1690000 nodes, 7.3093 seconds, 0.113852 last, 1.21654 remaining, avg degree: 4.84114 max hops: 2
+280000 lazy updates
+1700000 nodes, 7.42166 seconds, 0.112364 last, 1.18432 remaining, avg degree: 4.9402 max hops: 2
+1710000 nodes, 7.54322 seconds, 0.121553 last, 1.15256 remaining, avg degree: 5.00911 max hops: 2
+.290000 lazy updates
+1720000 nodes, 7.67156 seconds, 0.128339 last, 1.12076 remaining, avg degree: 5.09598 max hops: 2
+1730000 nodes, 7.79476 seconds, 0.123207 last, 1.08712 remaining, avg degree: 5.20356 max hops: 2
+300000 lazy updates
+1740000 nodes, 7.93531 seconds, 0.140542 last, 1.05475 remaining, avg degree: 5.30155 max hops: 2
+1750000 nodes, 8.07895 seconds, 0.143639 last, 1.02154 remaining, avg degree: 5.41608 max hops: 2
+.310000 lazy updates
+1760000 nodes, 8.23557 seconds, 0.156623 last, 0.988638 remaining, avg degree: 5.52504 max hops: 2
+1770000 nodes, 8.39264 seconds, 0.15707 last, 0.954385 remaining, avg degree: 5.65328 max hops: 2
+320000 lazy updates
+1780000 nodes, 8.56035 seconds, 0.167716 last, 0.919897 remaining, avg degree: 5.79896 max hops: 2
+1790000 nodes, 8.73823 seconds, 0.177879 last, 0.884949 remaining, avg degree: 5.95217 max hops: 2
+ 90% 330000 lazy updates
+1800000 nodes, 8.93043 seconds, 0.192194 last, 0.849775 remaining, avg degree: 6.11204 max hops: 2
+1810000 nodes, 9.13292 seconds, 0.202495 last, 0.813784 remaining, avg degree: 6.28872 max hops: 2
+340000 lazy updates
+1820000 nodes, 9.34951 seconds, 0.216589 last, 0.777134 remaining, avg degree: 6.49001 max hops: 2
+1830000 nodes, 9.58891 seconds, 0.239398 last, 0.74028 remaining, avg degree: 6.69161 max hops: 2
+.350000 lazy updates
+1840000 nodes, 9.84496 seconds, 0.256051 last, 0.702411 remaining, avg degree: 6.92915 max hops: 2
+1850000 nodes, 10.1325 seconds, 0.28757 last, 0.66425 remaining, avg degree: 7.18914 max hops: 2
+1860000 nodes, 10.4578 seconds, 0.325312 last, 0.625666 remaining, avg degree: 7.48912 max hops: 2
+360000 lazy updates
+1870000 nodes, 10.8262 seconds, 0.368335 last, 0.586345 remaining, avg degree: 7.84188 max hops: 2
+.1880000 nodes, 11.2329 seconds, 0.406716 last, 0.545387 remaining, avg degree: 8.24205 max hops: 2
+370000 lazy updates
+1890000 nodes, 11.704 seconds, 0.471118 last, 0.503328 remaining, avg degree: 8.71359 max hops: 2
+1900000 nodes, 12.2635 seconds, 0.559535 last, 0.46007 remaining, avg degree: 9.28812 max hops: 2
+380000 lazy updates
+1910000 nodes, 12.9369 seconds, 0.673398 last, 0.415059 remaining, avg degree: 9.98042 max hops: 2
+Switch to max hops 3 after 1910255 nodes, 12.9557 seconds
+Recalculate all remaining weights...
+.... 10% .... 20% .... 30% .... 40% .... 50% .... 60% .... 70% .... 80% .... 90% .... 100%
+.1920000 nodes, 18.1861 seconds, 5.24914 last, 0.48571 remaining, avg degree: 8.59521 max hops: 3
+390000 lazy updates
+1930000 nodes, 20.3385 seconds, 2.15241 last, 0.435001 remaining, avg degree: 8.08271 max hops: 3
+1940000 nodes, 22.2427 seconds, 1.90417 last, 0.358623 remaining, avg degree: 7.95141 max hops: 3
+400000 lazy updates
+1950000 nodes, 24.2002 seconds, 1.95755 last, 0.26408 remaining, avg degree: 8.02838 max hops: 3
+.1960000 nodes, 26.346 seconds, 2.1458 last, 0.15161 remaining, avg degree: 8.38319 max hops: 3
+Switch to max hops 5 after 1969481 nodes, 29.0333 seconds
+Recalculate all remaining weights...
+.... 10% .... 20% .... 30% .... 40% .... 50% .... 60% .... 70% .... 80% .... 90% .... 100%
+410000 lazy updates
+1970000 nodes, 29.5157 seconds, 3.16966 last, 0.0191627 remaining, avg degree: 8.66927 max hops: 5
+ 100%
+#edges: 11026924 / 22548146
+Write node order (levels) to exact-190-1-0-0-0-0-0-1000-0-1-3.3-2-10-3-10-5-0-0-0-1-600-0.hcn ...
+node ordering time: 30.5864 s
+max avg degree: 10.0022
+#edges: 11026924
+#total expanded edges: 14024761

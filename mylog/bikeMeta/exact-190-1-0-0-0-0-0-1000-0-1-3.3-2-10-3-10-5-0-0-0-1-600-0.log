@@ -1,0 +1,21 @@
+test 0
+edgeDiffMult 190
+searchSpaceMult 1
+betweennessAdd 0
+reachAdd 0
+delNeighbMult 0
+maxSettledApprox 0
+lazyUpdateRecalcLimit 1000
+maxSettledElim 0
+maxHops 1-3.3-2-10-3-10-5-
+voronoiMult 0
+searchPathHopBorderMult 0
+updateHops 0
+localReduceEdges 1
+shortcutOriginalEdgeSumMult 600
+searchPathHopBorderOriginalEdges 0
+statsFile 
+node ordering time: 104921 s
+max avg degree: 81.0404
+#edges: 803730
+#total expanded shortcut edges: 421993

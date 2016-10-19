@@ -1,0 +1,19 @@
+noOfTestCases 100
+noOfTestCasesVerify 100
+sizeof Edge 16
+maxSettledElim 0
+maxHops 
+localReduceEdges 1
+construction time: 11.1751 s
+nodeOrder: 2
+#edges: 5073659 / 10147322
+#edges original unidir./bidir.: 5533206 / 5533210
+space overhead [B/node] unidir./bidir.: 18.7254 / 18.7253
+#shortcut edges: 2307056
+avg query time: 0.0537801 ms
+#settled nodes min/avg/max: 233 / 371.51 / 617
+#settled minus stalled nodes min/avg/max: 126 / 224.79 / 375
+avg path expansion time: 0.0302196 ms
+#edges in expanded path min/avg/max: 83 / 308.76 / 654
+#edges in searched path min/avg/max: 11 / 18.53 / 30
+checksums 31519 30876 30876 30876

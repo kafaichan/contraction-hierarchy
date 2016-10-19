@@ -1,0 +1,58 @@
+Read test lengths from docu/bike_ddsg.txt.test-lengths ...
+Import Graph: n = 58228, m = 214078
+0 oneway street(s).
+** memory usage on hard disk [MB (bytes per node)] **
+   edges: 7 (118)
+   node data: 1 (20)
+   node ID mapping: 0 (4)
+   TOTAL: 8 (142)
+
+Construct from exact-190-1-0-0-0-0-0-1000-0-1-3.3-2-10-3-10-5-0-0-0-1-600-0.hcn ...
+Eliminate by given level...
+.... 10% .... 20% .... 30% .... 40% .... 50% .... 60% .... 70% .... 80% .... 90% .... 100%
+#edges: 803534 / 1676130
+max avg degree: 81.0404
+Construct search-graph...
+Node-order: 11 levels + original node-id
+** memory usage on hard disk [MB (bytes per node)] **
+   edges: 6 (110)
+   node data: 0 (8)
+   node ID mapping: 0 (4)
+   TOTAL: 7 (122)
+
+#core nodes: 0
+Serialize contraction hierarchy to exact-190-1-0-0-0-0-0-1000-0-1-3.3-2-10-3-10-5-0-0-0-1-600-0.hcn-0-1-2-0.ch ...
+Contraction Hierarchy file format version 1
+58228 nodes
+214078 original edges
+187689 shortcut edges
+Export levels...
+.... 10% .... 20% .... 30% .... 40% .... 50% .... 60% .... 70% .... 80% .... 90% .... 100%
+Export original edges...
+.... 10% .... 20% .... 30% .... 40% .... 50% .... 60% .... 70% .... 80% .... 90% .... 100%
+Export shortcut edges...
+.... 10% .... 20% .... 30% .... 40% .... 50% .... 60% .... 70% .... 80% .... 90% .... 100%
+Export done, took 0.0601511 seconds.
+Cache warmup done, took 0.0821199 seconds, checksum 472.
+Test run without statistics done, took 0.0829 seconds, checksum 482.
+Test run with path expansion  done, took 0.082978 seconds, checksum 482.
+Test run with statistics done, took 0.085273 seconds, checksum 482.
+noOfTestCases 100
+noOfTestCasesVerify 100
+sizeof Edge 16
+maxSettledElim 0
+maxHops 
+localReduceEdges 1
+construction time: 449.254 s
+nodeOrder: 2
+#edges: 401767 / 803534
+#edges original unidir./bidir.: 428156 / 428156
+space overhead [B/node] unidir./bidir.: 51.5735 / 51.5735
+#shortcut edges: 187689
+avg query time: 0.829 ms
+#settled nodes min/avg/max: 845 / 2901.99 / 4592
+#settled minus stalled nodes min/avg/max: 330 / 1644.2 / 3211
+avg path expansion time: 0.000779629 ms
+#edges in expanded path min/avg/max: 0 / 4.82 / 9
+#edges in searched path min/avg/max: 0 / 4.59 / 9
+checksums 472 482 482 482
